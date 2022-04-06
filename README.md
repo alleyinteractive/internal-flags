@@ -1,7 +1,7 @@
 Internal Flags
 ==============
 
-[![Build Status](https://travis-ci.com/alleyinteractive/internal-flags.svg?branch=master)](https://travis-ci.com/alleyinteractive/internal-flags)
+[![Testing Suite](https://github.com/alleyinteractive/internal-flags/actions/workflows/unit-test.yml/badge.svg)](https://github.com/alleyinteractive/internal-flags/actions/workflows/unit-test.yml)
 
 Creates a hidden taxonomy to improve expensive query performance by not relying on
 meta queries. Allows for 'flags' to be set/unset on posts easily and entirely hidden
