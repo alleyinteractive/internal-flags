@@ -1,7 +1,7 @@
 Internal Flags
 ==============
 
-[![Build Status](https://travis-ci.com/alleyinteractive/internal-flags.svg?branch=master)](https://travis-ci.com/alleyinteractive/internal-flags)
+[![Testing Suite](https://github.com/alleyinteractive/internal-flags/actions/workflows/unit-test.yml/badge.svg)](https://github.com/alleyinteractive/internal-flags/actions/workflows/unit-test.yml)
 
 Creates a hidden taxonomy to improve expensive query performance by not relying on
 meta queries. Allows for 'flags' to be set/unset on posts easily and entirely hidden
@@ -9,7 +9,7 @@ from the end-user.
 
 ## Instructions
 
-By default the internal taxonomy will be added to all registered post types.
+By default, the internal taxonomy will be added to all registered post types.
 
 ## Common Use Cases
 - Hiding from archives/searches
