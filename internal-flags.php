@@ -6,7 +6,7 @@
  * Author:          Alley Interactive
  * Author URI:      https://alley.co/
  * Text Domain:     internal-flags
- * Version:         0.1.0
+ * Version:         0.2.0
  *
  * @package         Internal_Flags
  */

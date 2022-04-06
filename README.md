@@ -9,7 +9,7 @@ from the end-user.
 
 ## Instructions
 
-By default the internal taxonomy will be added to all registered post types.
+By default, the internal taxonomy will be added to all registered post types.
 
 ## Common Use Cases
 - Hiding from archives/searches
