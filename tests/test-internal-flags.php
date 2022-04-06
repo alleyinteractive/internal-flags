@@ -5,6 +5,8 @@
  * @package Internal_Flags
  */
 
+use Mantle\Testing\Framework_Test_Case;
+
 use function Internal_Flags\{
 	get_flag_tax_query,
 	has_flag,
@@ -15,7 +17,7 @@ use function Internal_Flags\{
 /**
  * Test Internal Flags
  */
-class Test_Internal_Flags extends WP_UnitTestCase {
+class Test_Internal_Flags extends Framework_Test_Case {
 
 	/**
 	 * Test setting a flag.
