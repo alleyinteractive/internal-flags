@@ -10,12 +10,10 @@ use function Mantle\Testing\tests_add_filter;
 require __DIR__ . '/../vendor/wordpress-autoload.php';
 
 \Mantle\Testing\install(
-	function() {
-		tests_add_filter(
-			'muplugins_loaded',
-			function() {
-				require_once __DIR__ . '/../internal-flags.php';
-			}
-		);
-	}
+	fn () => tests_add_filter(
+		'muplugins_loaded',
+		function() {
+			require_once __DIR__ . '/../internal-flags.php';
+		}
+	),
 );
