@@ -1,11 +1,11 @@
 <?php
 /**
- * Test_Internal_Flags class file
+ * InternalFlagsTest class file
  *
  * @package Internal_Flags
  */
 
-use Mantle\Testkit\Test_Case;
+use Mantle\Testkit\TestCase;
 
 use function Internal_Flags\{
 	get_flag_tax_query,
@@ -17,7 +17,7 @@ use function Internal_Flags\{
 /**
  * Test Internal Flags
  */
-class Test_Internal_Flags extends Test_Case {
+class InternalFlagsTest extends TestCase {
 
 	/**
 	 * Test setting a flag.
